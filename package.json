@@ -1,0 +1,32 @@
+{
+  "name": "tagscan-api",
+  "version": "1.0.0",
+  "description": "Technical test tag-sacn",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "tagscan-api"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "Sandesh Grangdan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
